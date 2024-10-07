@@ -1,0 +1,136 @@
+@font-face {
+    font-family: hangover;
+    src: url(./Hangover.otf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #1477b9ab;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "hangover";
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #1477b96c;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    /* 200/130  */
+    width: 170px; 
+    height: 170px;
+    border-radius: 50%;
+
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1477b9ab;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #333;
+}
+footer {
+    text-align: center;
+}
+
+figcaption {
+    cursor: pointer;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.intro {
+    background-color: #1477b948;
+    margin: auto;
+}
+
+
+
+

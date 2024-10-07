@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <!-- hoje  -->
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Nabla&display=swap" rel="stylesheet">  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulheres Brasileiras na Tecnologia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mulheres Brasileiras na Tecnologia</h1>
+        <nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#biografias">Biografias</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p class="intro"> Para compreender a importância da mulher na tecnologia no Brasil, é essencial delver nas contribuições e desafios enfrentados por elas nesse setor. As mulheres têm desempenhado um papel fundamental na inovação, trazendo perspectivas únicas e soluções criativas. Apesar das barreiras de gênero, cada vez mais profissionaisfemininas estão se destacando em áreas como programação, desing e gestão de projetos. A inclusão de mulheres na tecnologia não apenas enriquece o ambiente de trabalho, mas também promove diversidade, que é crucial para o desenvolvimento de produtos mais abrangentes e eficazes. O empoderamento feminino nesse campo é, portanto, um passo vital rumo a uma sociedade mais equitativa e tecnológica.</p>
+
+        <!-- Seção sobre as mulheres -->
+        <section id="biografias">
+            <h2>Biografias de Mulheres na Tecnologia</h2>
+            <article>
+                <h3>1. Ada Lemos</h3>
+                <p><em>Ada Lemos</em> foi uma das pioneiras na internet no Brasil, responsável pela introdução da internet comercial no país.</p>
+            </article>
+
+            <article>
+                <h3>2. Cristina de Castro  Lobo</h3>
+                <p><em>Cristina de Castro Lobo</em> é professora e pesquisadora em segurança da informação, e uma das principais figuras femininas na área de criptografia no Brasil.</p>
+            </article>
+
+            <article>
+                <h3>3. Bertha Becker</h3>
+                <p><em>Bertha Becker</em> foi uma importante geógrafa brasileira, pioneira na utilização de sistemas de informação geográfica (SIG) no Brasil.</p>
+            </article>
+
+            <article>
+                <h3>4. Fernanda Weiden</h3>
+                <p><em>Fernanda Weiden</em> é uma engenheira de software que trabalhou no desenovlvimento de software livre, inclindo colaborações com o Linux e outras grandes corporações.</p>
+            </article>
+        </section>
+
+        <!-- Tabela de comparaçã -->
+        <section id="tabela">
+            <h2>Comparação das Áreas de Atuação</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Área</th>
+                        <th>contribuições</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ada Lemos</td>
+                        <td>Internet e Redes</td>
+                        <td>Pioneira na internet comercial no Brasil</td>
+                    </tr>
+                    <tr>
+                        <td>Cristina de Castro Lobo</td>
+                        <td>Segurança em Informação</td>
+                        <td>Pioneira em criptografia e segurança</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://pt.wikipedia.org/wiki/Bertha_Becker">Bertha Becker</a></td>
+                        <td>Geografia e SIG</td>
+                        <td>Utilização de SIG no Brasil</td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://pt.wikipedia.org/wiki/Fernanda_G._Weiden">Fernanda Weiden</a></td>
+                        <td>Engenharia de Software</td>
+                        <td>Trabalho em software livre e Linux</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Galeria de imagens  -->
+        <section id="galeria">
+            <h2>Galeria</h2>
+            
+            <figure>
+                <img src="https://ogimg.infoglobo.com.br/in/9140212-397-4d3/FT1086A/2011-445442534-2010112549097.jpg_20120425.jpg" alt="Bertha Becker">
+                <figcaption><abbr title="Utilização de SIG no Brasil">Bertha Becker</abbr></figcaption>
+            </figure>
+            <figure>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Fernanda_Waiden.jpg" alt="Fernanda Weiden">
+                <figcaption><abbr title="Trabalho em software livre e Linux">Fernanda Weiden</abbr></figcaption>
+            </figure>
+
+        </section>
+
+        <!-- Formulário de contato  -->
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <form action="submit_form.php" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+                <label for="teledone">Telefone:</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required>
+                </textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mulheres Brasileiras na Tecnologia. Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
